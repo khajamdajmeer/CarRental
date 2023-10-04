@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+$primary:#ffedea;
+$onprimary:orange;
+$green:#0c2a1f;
+$mybg:#b7e4c7;
+$mygrey:#a2a3a2a0;
+$secondary:#0a2463;
+$myonsecondary:#b5e2fa;
+$light:#861400;
+$success:#fff4f2;
+$info:#000000a5;
+$danger:#ffffffc5;
+.navbar{
+  // background: $mybg;
+  background-color: #0a256300;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: $green;
+
+}
+.text-onprimary{
+  color: $green;
+  font-weight: bold;
+}
+.navbtn:hover{
+  box-shadow: 0px 0px 5px 2px $secondary;
+}
+
+
+
+.cheight{
+  min-height: 500px;
+  max-height:auto;
+  background: $success;
+}
+
+.btn-light{
+  transition: 0.3s;
+}
+
+
+
+
+.btn-light:hover{
+background-color: $success !important;
+color: $light !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import '~bootstrap/scss/bootstrap';
+
