@@ -103,7 +103,7 @@ const VechileModels = () => {
             <div className="col-md-3 text-center p-0">
                 {carsdata.map((ele,index)=>{
                     return(
-                        <button className={`btn text-primary  w-100 mb-1 fw-bold py-3 ${index===carindex? 'bg-primary text-light border-light':'bg-light'}`} onClick={()=>handleCarChange(index)}>{ele.fullName}</button>
+                        <button className={`btn text-primary  w-100 mb-1 fw-bold py-3 ${index===carindex? 'btn-primary text-light border-light':'btn-light'}`} onClick={()=>handleCarChange(index)}>{ele.fullName}</button>
                     )
 
                 })}
@@ -133,7 +133,7 @@ const VechileModels = () => {
                     <div className="col  fw-bold">Fuel</div>|
                     <div className="col ">{carsdata[carindex].Fuel}</div>
                 </div>
-                <button className="btn btn-light w-100 my-3 py-3 fw-bold">Reserve Now</button>
+                <button className="btn btn-light w-100 my-3 py-3 fw-bold shadow-lg">Reserve Now</button>
             </div>
         </div>
       </div>

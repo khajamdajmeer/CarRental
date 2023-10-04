@@ -3,7 +3,7 @@
   padding: 0;
 }
 $primary:#ffedea;
-$onprimary:orange;
+$onprimary:rgb(0, 0, 0);
 $green:#0c2a1f;
 $mybg:#b7e4c7;
 $mygrey:#a2a3a2a0;
@@ -12,7 +12,7 @@ $myonsecondary:#b5e2fa;
 $light:#861400;
 $success:#fff4f2;
 $info:#000000a5;
-$danger:#ffffffc5;
+$danger:#ffffffd8;
 .navbar{
   // background: $mybg;
   background-color: #0a256300;
@@ -47,9 +47,10 @@ $danger:#ffffffc5;
 
 
 .btn-light:hover{
-background-color: $success !important;
+background-color: $primary !important;
 color: $light !important;
-
+border-color: $light !important;
+box-shadow: 1px 1px 10px 2px $light !important;
 }
 
 
