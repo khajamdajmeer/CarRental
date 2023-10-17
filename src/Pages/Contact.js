@@ -43,7 +43,7 @@ const Contact = () => {
             </div>
         </div>
       </div>
-      <div className="container-fluid p-0 m-0 bg-onprimary w-100 py-5">
+      <div className="container-fluid p-0 m-0 bg-onprimary w-100 py-5" style={{background:'black'}}>
                 <h2 className='text-center text-primary fs-1 d-flex align-items-center justify-content-center'>Get in touch with us
             <span className='text-light fw-bold  d-flex align-items-center justify-content-center'>   <span class="material-symbols-outlined fw-bold ps-4 pe-2 fs-1"> call </span> (123)-456-789
             </span>

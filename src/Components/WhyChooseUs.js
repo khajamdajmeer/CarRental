@@ -6,7 +6,7 @@ import why3 from '../Images/whyus3.png';
 const WhyChooseUs = () => {
     return (
         <>
-            <div className="container-fluid p-0 m-0 bg-onprimary w-100 py-5">
+            <div className="container-fluid p-0 m-0 bg-onprimary w-100 py-5" style={{background:'black'}}>
                 <h2 className='text-center text-primary fs-1 '>Save big with our cheap car rental!</h2>
                 <h4 className='text-center text-primary'>Top Airports. Local Suppliers. <span className='text-light'>24/7</span> Support.</h4>
             </div>
