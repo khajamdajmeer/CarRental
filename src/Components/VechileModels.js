@@ -3,7 +3,8 @@ import shift from '../Images/shift.jpeg';
 import verna from '../Images/verna.jpeg';
 import thar from '../Images/Thar.jpeg';
 import ertiga from '../Images/ertiga.jpeg';
-import fortuner from '../Images/fortuner.jpg'
+import fortuner from '../Images/fortuner.jpg';
+import Hecotr from '../Images/MG-Hector.jpg';
 
 const VechileModels = () => {
 
@@ -66,14 +67,14 @@ const VechileModels = () => {
 
     },
     {
-        fullName:'Mahindra Thar 4x4',
-        modelimg:thar,
+        fullName:'M G Hector',
+        modelimg:Hecotr,
         price:'4000',
-        model:"Thar",
+        model:"Turbo shine",
         segment:"Compact SUV",
         year:'2022',
-        doors:'3 / 5',
-        transmition:'Manual 4x4',
+        doors:'4 / 5',
+        transmition:'Manual ',
         Fuel:'Petrol'
 
     },

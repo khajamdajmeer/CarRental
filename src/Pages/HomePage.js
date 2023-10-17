@@ -4,7 +4,6 @@ import Booking from '../Components/Booking';
 import Plantrip from '../Components/PlanTrip';
 import VechileModels from '../Components/VechileModels';
 import WhyChooseUs from '../Components/WhyChooseUs';
-import Footer from '../Components/Footer';
 const HomePage = () => {
   return (
     <>
@@ -13,7 +12,6 @@ const HomePage = () => {
       <Plantrip/>
       <VechileModels/>
       <WhyChooseUs/>
-      <Footer/>
     </>
   );
 }

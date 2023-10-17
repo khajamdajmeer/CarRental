@@ -3,7 +3,8 @@ import React from 'react';
 const Footer = () => {
   return (
     <>
-    <div className="container py-5  ">
+    <div className="container-fluid border-top"></div>
+    <div className="container py-3 ">
         <div className="row">
             <div className="col col-lg-3 col-md-6 col-12 px-2 py-3">
                 <h2><strong>Car</strong> Rental</h2>
@@ -24,7 +25,6 @@ mail</span><h5>rentacar@gmail.com</h5>
                 <p>Carrers</p>
                 <p>Mobile</p>
                 <p>Blog</p>
-                <p>How we work</p>
             </div>
             <div className="col col-lg-3 col-md-6 col-12 px-2 py-3">
                 <h2     className='fw-bold'>    WORKING HOURS</h2>
